@@ -39,7 +39,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
       - file: "site/content/contact/_index.md"
-        label: "Contact Page"
+        label: "Contato"
         name: "contact"
         fields:
           - {label: Title, name: title, widget: string}
@@ -56,7 +56,7 @@ collections: # A list of collections the CMS should be able to edit
                 name: text
                 widget: text
       - file: "site/content/products/_index.md"
-        label: "Products Page"
+        label: "Matérias"
         name: "products"
         fields:
           - {label: Title, name: title, widget: string}
@@ -69,7 +69,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Full_image, name: full_image, widget: image}
           - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
       - file: "site/content/values/_index.md"
-        label: "Values Page"
+        label: "Valores"
         name: "values"
         fields:
           - {label: Title, name: title, widget: string}
